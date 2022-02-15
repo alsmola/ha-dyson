@@ -50,7 +50,7 @@ Dyson Cloud uses HTTP-based API to communicate with cloud service. Currently it 
 
 ### Setup using device WiFi information
 
-Version 0.6.1 introduced a new way to set up. This is inspired by https://community.home-assistant.io/t/dyson-pure-cool-link-local-mqtt-control/217263. Set up through UI and select "Setup using WiFi information". Find your device WiFi SSID and password on the sticker on your device body or user's manual (See the figure below). Don't fill in your home WiFi information. Note that this method only uses SSID and password to calculate serial, credential, and device type so you still need to setup your device on the official mobile app first.
+Version 0.6.1 introduced a new way to set up. This is inspired by https://community.home-assistant.io/t/dyson-pure-cool-link-local-mqtt-control/217263. Set up through UI and select "Setup using WiFi information". Find your device WiFi SSID and password on the sticker on your device body or user's manual (See the figure below). Don't fill in your home WiFi information. If you get a device failed to connect error, try entering the IP address in the `Host` field. Note that this method only uses SSID and password to calculate serial, credential, and device type so you still need to setup your device on the official mobile app first.
 
 ### Setup using Dyson cloud account
 
